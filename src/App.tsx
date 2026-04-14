@@ -39,7 +39,7 @@ This all comes together to make a system that handles Artificial Intelligences, 
           <WeekCard week={5} notes="I learned about the Azure CLI. I practiced using it." image="https://cdn.discordapp.com/attachments/1419005342552948886/1493695021440831708/inft3.png?ex=69dfe764&is=69de95e4&hm=6db4eaf8db11860d92f2eaa37f07e482ff3a9cabaefb9d02cd304e48ad3d953b&"></WeekCard>
           <WeekCard week={6} notes="I reflected on what I learned so far." image=""></WeekCard>
           <WeekCard week={7} notes="I studied for the Azure-900 certification. I haven't taken the test yet though." image="https://learn-attachment.microsoft.com/api/attachments/06f9e383-d289-4a22-a0fa-c051f3ed5642?platform=QnA"></WeekCard>
-          <WeekCard week={8} notes="This website. I made this portfolio and hosted it with Azure. I learned a lot about cloud hosting." image=""></WeekCard>
+          <WeekCard week={8} notes="This website. I made this portfolio and hosted it with Azure. I learned a lot about cloud hosting." image="https://cdn.discordapp.com/attachments/1419005342552948886/1493705497801527366/inft7.png?ex=69dff126&is=69de9fa6&hm=1fce0855966f944b0bc89546bbaf130cced385cbfb82dabd7a72d13db0e21b24&"></WeekCard>
         </section>
 
         <section id="portfolio">
