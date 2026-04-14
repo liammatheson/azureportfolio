@@ -1,19 +1,18 @@
-interface WeekCardProps {
-  week: number;
+
+interface Dictionary {
+  dictionary: number;
   notes: string;
   icon?: string;
-  image: string 
 }
 
-export default function WeekCard({ week, notes, icon = "", image }: WeekCardProps) {
+export default function WeekCard({ dictionary: dictionary, notes, icon = "" }: Dictionary) {
   return (
     <div className="week-card">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '1rem' }}>
-        <h4>{week}</h4>
+        <h4> {dictionary}</h4>
         <span className="material-symbols-outlined">{icon}</span>
       </div>
       <p>{notes}</p>
-      <img src={image} style={{ width: '100%', maxHeight: '500px', objectFit: 'contain', marginTop: '55' }} />
     </div>
   );
 }
